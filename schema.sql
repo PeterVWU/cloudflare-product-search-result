@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS products;
+CREATE TABLE IF NOT EXISTS products (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  sku TEXT NOT NULL UNIQUE,
+  product_name TEXT NOT NULL,
+  top_links JSON
+);

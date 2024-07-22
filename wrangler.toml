@@ -1,4 +1,4 @@
-name = "" # todo
+name = "product-search-result" # todo
 main = "./src/index.ts"
 compatibility_date = "2022-10-10"
 
@@ -49,3 +49,8 @@ compatibility_date = "2022-10-10"
 #[[migrations]]
 #tag = "v1"
 #new_classes = ["MyDurableObject"]
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "product-search-result"
+database_id = "291ef4c8-fbef-43a1-aeaf-499dda62370e"
